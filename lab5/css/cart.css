@@ -1,0 +1,101 @@
+.content .container {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left {
+    margin-top: 20px;
+    width: 50%;
+}
+
+.item {
+    margin-bottom: 20px;
+    background-color: rgb(235, 235, 235);
+    border-radius: 15px;
+    border: 1px solid gray;
+    width: 100%;
+    height: 180px;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item .image-box {
+    height: 100%;
+    aspect-ratio: 1 / 1;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+.item .info-box {
+    height: 100%;
+    width: 100%;
+    margin-left: 20px;
+}
+
+.item .info-box .title {
+    margin: 0;
+    font-size: 34px;
+}
+
+.item .info-box .name-display {
+    margin: 0;
+    font-size: 24px;
+}
+
+.item .delete-button {
+    width: 25px;
+    height: 25px;
+    min-width: 25px;
+    min-height: 25px;
+    position: relative;
+    top: 155px;
+    background-image: url(../images/delete.png);
+    background-size: cover;
+}
+
+.item .delete-button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.right {
+    margin-top: 20px;
+    background-color: rgb(235, 235, 235);
+    border-radius: 15px;
+    border: 1px solid gray;
+    width: 35%;
+    height: 600px;
+    padding: 25px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.right .title {
+    margin-top: 0;
+    font-size: 36px;
+    text-align: center;
+}
+
+.right .price {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.right .submit-button {
+    margin: 0 auto;
+    padding: 10px 15px;
+    width: fit-content;
+    height: fit-content;
+    background-color: red;
+    color: white;
+    font-size: 24px;
+    user-select: none;
+    border-radius: 5px;
+}
+
+.right .submit-button:hover {
+    background-color: rgb(216, 7, 7);
+    cursor: pointer;
+}
